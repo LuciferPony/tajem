@@ -60,6 +60,8 @@
 
 .main__title {
   color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .main__text {
@@ -71,7 +73,7 @@
   content: '';
   display: block;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 50px;
   height: 1px;
   background-color: #00e0d0;
