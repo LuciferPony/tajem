@@ -1,0 +1,43 @@
+.section-video {
+  width: 100%;
+  min-height: 550px;
+  background-image:
+  linear-gradient(to right, rgba(#09052f, .8),
+  rgba(#311d5e, .8)),
+  url("/assets/images/video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.section-video__wrapper {
+  width: 873px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-video__btn {
+  margin-top: 202px;
+  order: -1;
+  background-color: transparent;
+  border: none;
+}
+
+.section-video__text {
+  margin-top: 34px;
+  text-transform: uppercase;
+}
+
+.section-video__btn-text {
+  margin-top: 24px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+}

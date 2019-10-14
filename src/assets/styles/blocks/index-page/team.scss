@@ -1,0 +1,61 @@
+.section-team {
+  width: 100%;
+  padding-bottom: 70px;
+  background-image:
+  linear-gradient(to right, rgba(#09052f, .8),
+  rgba(#311d5e, .8)),
+  url("/assets/images/team.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.section-team__wrapper {
+  width: 940px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-team__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  margin-right: -20px;
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-bottom: 28px;
+  border: .5px solid white;
+}
+
+.team__img {
+  order: -1;
+  width: 220px;
+  height: 229px;
+}
+
+.team__name {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.team__description {
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.section-team__btn {
+  margin-top: 26px;
+}

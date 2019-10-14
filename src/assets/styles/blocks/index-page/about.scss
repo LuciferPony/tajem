@@ -1,0 +1,33 @@
+.section-about {
+  width: 100%;
+}
+
+.section-about__wrapper {
+  display: flex;
+  width: 873px;
+  margin: auto;
+}
+
+.section-about__about {
+  margin-top: 70px;
+}
+
+.section-about__title {
+  align-self: center;
+  margin: 0;
+}
+
+.about__text {
+  max-width: 538px;
+  margin-top: 28px;
+}
+
+.about__btn {
+  margin-top: 30px;
+}
+
+.about__img {
+  order: -1;
+  margin-top: 70px;
+  margin-right: 100px;
+}
