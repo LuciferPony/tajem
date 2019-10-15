@@ -19,7 +19,6 @@
   width: 940px;
   margin: auto;
   margin-top: 15px;
-
 }
 
 .logo__img {
@@ -33,9 +32,8 @@
   margin-right: -8px;
   font-family: "Roboto";
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
-  // color: #00e0d0;
   letter-spacing: 0.33px;
   letter-spacing: 0.33px;
 }
@@ -47,6 +45,10 @@
 .nav__link {
   text-decoration: none;
   color: white;
+}
+
+.nav__link:hover {
+  color: #00e0d0;
 }
 
 .section-header__main {
@@ -63,6 +65,7 @@
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 .main__text {

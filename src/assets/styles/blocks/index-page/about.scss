@@ -1,5 +1,8 @@
 .section-about {
   width: 100%;
+  padding-bottom: 70px;
+  padding-top: 70px;
+
 }
 
 .section-about__wrapper {
@@ -8,18 +11,17 @@
   margin: auto;
 }
 
-.section-about__about {
-  margin-top: 70px;
-}
 
 .section-about__title {
   align-self: center;
   margin: 0;
+  color: #413d4b;
 }
 
 .about__text {
   max-width: 538px;
   margin-top: 28px;
+  color: #413d4b;
 }
 
 .about__btn {
@@ -28,6 +30,5 @@
 
 .about__img {
   order: -1;
-  margin-top: 70px;
   margin-right: 100px;
 }

@@ -1,5 +1,6 @@
 .section-team {
   width: 100%;
+  padding-top: 70px;
   padding-bottom: 70px;
   background-image:
   linear-gradient(to right, rgba(#09052f, .8),
@@ -16,6 +17,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section-team__title {
+  margin: 0;
+}
+
+.section-team__text {
+  margin-top: 16px;
+}
+
+.section-team__text::after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  width: 50px;
+  height: 2px;
+  background-color: #655c80;
 }
 
 .section-team__list {
