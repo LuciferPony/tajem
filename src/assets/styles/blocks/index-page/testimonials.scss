@@ -14,6 +14,10 @@
 .section-testimonials__wrapper {
   width: 770px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
 }
 
 .section-testimonials__list {
@@ -23,7 +27,6 @@
 .section-testimonials__list::before {
   content: '“';
   display: block;
-  margin: auto;
   color: #ffffff;
   font-family: "Playfair Display";
   font-size: 100px;
@@ -50,9 +53,11 @@
 }
 
 .testimonials__job {
+  display: block;
   font-family: Roboto;
   font-size: 13px;
   font-weight: 300;
   line-height: 22px;
   text-transform: uppercase;
+  color: #7e7992;
 }
