@@ -22,6 +22,7 @@
 
 .section-testimonials__list {
   list-style: none;
+  padding: 0;
 }
 
 .section-testimonials__list::before {
@@ -53,6 +54,7 @@
 }
 
 .testimonials__job {
+  margin-top: 5px;
   display: block;
   font-family: Roboto;
   font-size: 13px;
@@ -60,4 +62,26 @@
   line-height: 22px;
   text-transform: uppercase;
   color: #7e7992;
+}
+
+.testimonials__userpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+
+// .testimonials__userpic::after{
+//   content: '';
+//   display: inline-block;
+//   border: solid #848485;
+//   border-width: 0 3px 3px 0;
+//   padding: 3px;
+//   transform: rotate(-45deg);
+//   -webkit-transform: rotate(-45deg);
+// }
+
+.userpic__item {
+  margin-right: 14px;
 }
