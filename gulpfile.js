@@ -47,7 +47,7 @@ const paths = {
   },
   svg: {
     src: './src/assets/svg/**/*.svg',
-    dest: './dist/assets/svg'
+    dest: './src/svg_sprite'
   },
   fonts: {
     src: './src/assets/fonts/**/*.*',
