@@ -11,6 +11,37 @@
 .section-contact__form {
   display: flex;
   flex-direction: column;
+  width: 490px;
+}
+
+.form__input {
+  width: 460px;
+  height: 45px;
+  margin-top: 23px;
+}
+
+.form__btn {
+  margin-top: 21px;
+  width: 120px;
+}
+
+.textarea__input {
+  padding: 0;
+}
+
+textarea::placeholder {
+  text-align: left;
+}
+
+.section-contact__clients {
+  width: 400px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .clients__link {
