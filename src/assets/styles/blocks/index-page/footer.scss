@@ -1,0 +1,58 @@
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  background-image:
+  linear-gradient(to right, rgba(#09052f, .8),
+  rgba(#311d5e, .8)),
+  url("/assets/images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.section-footer__wrapper {
+  width: 940px;
+  margin: auto;
+}
+
+.section-footer__items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.section-footer__logo{
+  width: 283px;
+}
+
+.section-footer__contacts {
+  width: 267px;
+}
+
+.section-footer__socials {
+  width: 291px;
+}
+
+.logo__text, .contacts__address, .contacts__phone {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  color: #f4f4f6;
+}
+
+.contacts__title, .socials__title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.contacts__address::before {
+  content: '';
+  display: block;
+  background-image: url('assets/images/mark.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
