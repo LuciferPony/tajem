@@ -20,6 +20,7 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
 }
 
 .section-footer__logo{
@@ -49,12 +50,69 @@
   text-transform: uppercase;
 }
 
+.contacts__address {
+  position: relative;
+  width: 237px;
+  margin-left: 16px;
+}
+
 .contacts__address::before {
   content: '';
+  position: absolute;
+  left: -36px;
+  top: 5px;
   display: block;
-  background-image: url('assets/images/mark.png');
-  background-size: cover;
+  width: 14px;
+  height: 19px;
+  background-image: url('/assets/images/mark.png');
   background-repeat: no-repeat;
+}
+
+.contacts__phone {
+  margin-left: 16px;
+  position: relative;
+}
+
+.contacts__phone::before {
+  content: '';
+  position: absolute;
+  left: -36px;
+  top: 5px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-image: url('/assets/images/phone.png');
+  background-repeat: no-repeat;
+}
+
+.socials__form {
+  display: flex;
+}
+
+.socials__input {
+  border: 1px solid #675d83;
+  background-color: transparent;
+  padding-left: 16px;
+  padding-right: 26px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.socials__input::placeholder {
+  color: #bdb8c9;
+}
+
+.socials__btn {
+  width: 70px;
+  height: 45px;
+  margin-left: 10px;
+  font-size: 0;
+  background-image: url('/assets/images/paper.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 0.5;
 }
 
 .socials__links {
@@ -69,6 +127,9 @@
 }
 
 .socials__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0;
   width: 35px;
   height: 35px;
@@ -79,6 +140,38 @@
   border: 1px solid white;
 }
 
-.socials__link {
-  align-self: center;
+.socials__item:hover {
+  border: 1px solid #00e0d0;
+  border-radius: 50%;
+}
+
+
+.section-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-footer__info {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-right: -33px;
+}
+
+.bottom__item {
+  margin-right: 33px;
+}
+
+.bottom__link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+
+.bottom__link:hover {
+  color: #00e0d0;
 }
