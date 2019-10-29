@@ -9,6 +9,8 @@
   background-repeat: no-repeat;
   font-family: 'Roboto';
   color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .section-footer__wrapper {
@@ -24,15 +26,17 @@
 }
 
 .section-footer__logo{
-  width: 283px;
+  width: 33%;
+  margin-right: 36px;
 }
 
 .section-footer__contacts {
-  width: 267px;
+  width: 33%;
+  margin-right: 36px;
 }
 
 .section-footer__socials {
-  width: 291px;
+  width: 33%;
 }
 
 .logo__text, .contacts__address, .contacts__phone {
@@ -104,7 +108,6 @@
 
 .socials__btn {
   width: 70px;
-  height: 45px;
   margin-left: 10px;
   font-size: 0;
   background-image: url('/assets/images/paper.png');
@@ -138,6 +141,7 @@
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid white;
+  transition: border-color .3s;
 }
 
 .socials__item:hover {
@@ -170,6 +174,7 @@
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 0.35px;
+  transition: border-color .3s;
 }
 
 .bottom__link:hover {

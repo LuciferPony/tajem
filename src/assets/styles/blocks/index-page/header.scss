@@ -29,7 +29,7 @@
 .nav__list {
   display: flex;
   list-style: none;
-  margin-right: -8px;
+  margin-right: -24px;
   font-family: "Roboto";
   font-size: 13px;
   font-weight: 700;
@@ -39,12 +39,13 @@
 }
 
 .nav__item {
-  margin-right: 8px;
+  margin-right: 24px;
 }
 
 .nav__link {
   text-decoration: none;
   color: white;
+  transition: border-color .3s;
 }
 
 .nav__link:hover {

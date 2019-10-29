@@ -1,5 +1,6 @@
 .section-contact {
   width: 100%;
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
@@ -16,6 +17,7 @@
 }
 
 .form__title, .clients__title {
+  margin-bottom: 35px;
   font-weight: 700;
   color: #413d4b;
 }
@@ -56,6 +58,7 @@ textarea::placeholder {
 
 .clients__list {
   width: 100%;
+  margin: 0;
   margin-left: 100px;
   display: flex;
   flex-direction: row;
