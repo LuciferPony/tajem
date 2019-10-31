@@ -80,4 +80,10 @@ img {
   font-weight: 400;
   text-transform: uppercase;
   color: #00e0d0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #00e0d0;
 }

@@ -115,7 +115,13 @@
   background-position: center;
   border: 1px solid #ffffff;
   background-color: #ffffff;
-  opacity: 0.5;
+  opacity: .5;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.socials__btn:hover{
+  opacity: .2;
 }
 
 .socials__links {
