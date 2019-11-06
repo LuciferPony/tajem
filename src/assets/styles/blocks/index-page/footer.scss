@@ -206,11 +206,20 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .contacts__title, .contacts__address, .contacts__phone {
     margin-bottom: 0;
+  }
+
+  .contacts__phone {
+    width: 237px;
+  }
+
+  .contacts__title {
+    justify-self: center;
+    align-self: center;
   }
 
   .section-footer__socials {

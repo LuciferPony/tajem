@@ -73,3 +73,14 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+@media(max-width: 1140px){
+  .works__item {
+  display: flex;
+  width: 20.66%;
+  }
+
+  .section-works__info {
+    width: 740px;
+  }
+}

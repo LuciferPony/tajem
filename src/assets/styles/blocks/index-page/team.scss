@@ -43,6 +43,7 @@
   flex-wrap: nowrap;
   margin-right: -20px;
   padding: 0;
+  width: 100%;
 }
 
 .team__item {
@@ -79,4 +80,26 @@
 .section-team__btn {
   margin-top: 26px;
   padding: 15px;
+}
+
+@media(max-width: 1140px){
+  .section-team__wrapper {
+    width: 740px;
+  }
+
+  .section-team__list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .team__item {
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding-top: 20px;
+    justify-content: center;
+    border: .1px solid white;
+  }
 }

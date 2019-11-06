@@ -37,3 +37,9 @@
   letter-spacing: 0.7px;
   text-transform: uppercase;
 }
+
+@media(max-width: 1140px){
+  .section-video__wrapper {
+    width: 740px;
+  }
+}

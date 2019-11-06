@@ -80,3 +80,17 @@ textarea::placeholder {
 .clients__link {
   font-size: 0;
 }
+
+@media(max-width: 1140px){
+  .section-contact__wrapper {
+    width: 740px;
+  }
+
+  .clients__title {
+  margin-left: 90px;
+}
+
+  .clients__list {
+    margin-left: 80px;
+  }
+}

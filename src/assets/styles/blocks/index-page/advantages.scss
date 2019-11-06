@@ -79,3 +79,13 @@
   margin-top: 25px;
   color: #333333;
 }
+
+@media(max-width: 1140px){
+  .section-advantages__wrapper {
+    width: 740px;
+  }
+
+  .advantages__item {
+    width: 50%;
+  }
+}

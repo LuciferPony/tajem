@@ -96,3 +96,9 @@
 .userpic__item {
   margin-right: 14px;
 }
+
+@media(max-width: 1140px){
+  .section-testimonials__wrapper {
+    width: 740px;
+  }
+}
