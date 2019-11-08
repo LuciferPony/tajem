@@ -102,3 +102,21 @@
     width: 740px;
   }
 }
+
+@media(max-width: 900px) {
+  .section-testimonials__wrapper {
+    width: 540px;
+  }
+
+  .testimonials__job {
+    font-size: 10px;
+  }
+
+  .testimonials__credits {
+    font-size: 11px;
+  }
+
+  .testimonials__text{
+    font-size: 15px;
+  }
+}

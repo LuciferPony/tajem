@@ -78,9 +78,25 @@
   .works__item {
   display: flex;
   width: 20.66%;
+  border: .5px solid white;
   }
 
   .section-works__info {
     width: 740px;
+  }
+}
+
+@media(max-width: 900px) {
+  .section-works__wrapper {
+    width: 540px;
+    margin: auto;
+  }
+
+  .section-works__info {
+    width: 540px;
+  }
+
+  .works__item {
+    width: 40%;
   }
 }

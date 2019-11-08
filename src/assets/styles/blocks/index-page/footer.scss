@@ -242,3 +242,9 @@
     font-size: 14px;
   }
 }
+
+@media(max-width: 900px) {
+  .section-footer__wrapper {
+    width: 540px;
+  }
+}

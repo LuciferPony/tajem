@@ -32,10 +32,21 @@
 .about__img {
   order: -1;
   margin-right: 100px;
+  align-items: center;
 }
 
 @media(max-width: 1140px){
   .section-about__wrapper {
     width: 740px;
+  }
+}
+
+@media(max-width: 900px) {
+  .section-about__wrapper {
+    width: 540px;
+  }
+
+  .about__btn {
+    width: 100%;
   }
 }

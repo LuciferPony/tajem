@@ -89,3 +89,40 @@
     width: 50%;
   }
 }
+
+@media(max-width: 900px) {
+  .section-advantages__wrapper {
+    width: 540px;
+  }
+
+  .section-advantages__list {
+    align-items: center;
+  }
+
+  .advantages__item {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .advantages__img {
+    position: absolute;
+    align-self: flex-start;
+    padding-top: 50px;
+  }
+
+  .advantages__subtitle {
+    order: 0;
+    margin: 0;
+    justify-self: flex-start;
+    text-align: left;
+  }
+
+  .advantages__text {
+    width: 50%;
+    text-align: left;
+    align-self: flex-end;
+  }
+}

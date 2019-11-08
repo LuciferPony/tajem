@@ -94,3 +94,40 @@ textarea::placeholder {
     margin-left: 80px;
   }
 }
+
+@media(max-width: 900px) {
+  .section-contact__wrapper {
+    width: 540px;
+    flex-direction: column;
+  }
+
+  .section-contact__form {
+    width: 100%;
+  }
+
+  .form__btn {
+    width: 100%;
+  }
+
+  .section-contact__clients {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .clients__title {
+    margin-left: 0;
+  }
+
+  .clients__list {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .clients__item {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+  }
+}

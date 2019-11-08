@@ -103,3 +103,19 @@
     border: .1px solid white;
   }
 }
+
+@media(max-width: 900px) {
+  .section-team__wrapper {
+    width: 540px;
+  }
+
+  .section-team__list {
+    flex-wrap: wrap;
+  }
+
+  .team__item {
+    width: 100%;
+    border: .5px solid #787390;
+    border-radius: 10px;
+  }
+}
