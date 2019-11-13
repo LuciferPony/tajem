@@ -247,4 +247,14 @@
   .section-footer__wrapper {
     width: 540px;
   }
+
+  .contacts__title {
+    align-self: flex-start;
+    font-size: 14px;
+  }
+
+  .section-footer__bottom {
+    flex-direction: column;
+  }
+
 }

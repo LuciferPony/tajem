@@ -120,3 +120,17 @@
     font-size: 15px;
   }
 }
+
+.section-works__info {
+  width: 540px;
+}
+
+.works__item {
+  width: 40%;
+}
+
+@media(max-width: 500px) {
+  .section-testimonials__wrapper {
+    width: 400px;
+  }
+}

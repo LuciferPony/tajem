@@ -126,3 +126,9 @@
     align-self: flex-end;
   }
 }
+
+@media(max-width: 500px) {
+  .section-advantages__wrapper {
+    width: 400px;
+  }
+}

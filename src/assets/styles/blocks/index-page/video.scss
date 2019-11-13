@@ -49,3 +49,9 @@
     width: 540px;
   }
 }
+
+@media(max-width: 500px) {
+  .section-video__wrapper {
+    width: 400px;
+  }
+}
