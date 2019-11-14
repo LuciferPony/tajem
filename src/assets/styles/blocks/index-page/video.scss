@@ -40,18 +40,14 @@
 
 @media(max-width: 1140px){
   .section-video__wrapper {
-    width: 740px;
+    width: auto;
   }
 }
 
 @media(max-width: 900px) {
-  .section-video__wrapper {
-    width: 540px;
-  }
+
 }
 
 @media(max-width: 500px) {
-  .section-video__wrapper {
-    width: 400px;
-  }
+
 }

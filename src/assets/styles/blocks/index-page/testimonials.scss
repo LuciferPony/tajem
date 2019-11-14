@@ -99,15 +99,11 @@
 
 @media(max-width: 1140px){
   .section-testimonials__wrapper {
-    width: 740px;
+    width: auto;
   }
 }
 
 @media(max-width: 900px) {
-  .section-testimonials__wrapper {
-    width: 540px;
-  }
-
   .testimonials__job {
     font-size: 10px;
   }
@@ -121,16 +117,13 @@
   }
 }
 
-.section-works__info {
-  width: 540px;
-}
+// .section-works__info {
+//   width: 540px;
+// }
 
 .works__item {
   width: 40%;
 }
 
 @media(max-width: 500px) {
-  .section-testimonials__wrapper {
-    width: 400px;
-  }
 }

@@ -83,7 +83,7 @@ textarea::placeholder {
 
 @media(max-width: 1140px){
   .section-contact__wrapper {
-    width: 740px;
+    width: auto;
   }
 
   .clients__title {
@@ -91,13 +91,12 @@ textarea::placeholder {
 }
 
   .clients__list {
-    margin-left: 80px;
+    margin-left: 0;
   }
 }
 
 @media(max-width: 900px) {
   .section-contact__wrapper {
-    width: 540px;
     flex-direction: column;
   }
 
@@ -110,7 +109,6 @@ textarea::placeholder {
   }
 
   .section-contact__clients {
-    width: 100%;
     margin-top: 30px;
   }
 
@@ -136,7 +134,7 @@ textarea::placeholder {
 }
 
 @media(max-width: 500px) {
-  .section-contact__wrapper {
-    width: 400px;
+  .clients__list {
+    margin-right: 0;
   }
 }

@@ -75,34 +75,33 @@
 }
 
 @media(max-width: 1140px){
+  .section-works__info {
+    width: 83%;
+  }
+
   .works__item {
   display: flex;
   width: 20.66%;
   border: .5px solid white;
   }
 
-  .section-works__info {
-    width: 740px;
-  }
 }
 
 @media(max-width: 900px) {
-  .section-works__wrapper {
-    width: 540px;
-    margin: auto;
-  }
-
   .section-works__info {
-    width: 540px;
     justify-content: center;
     padding-bottom: 30px;
   }
 
-  .info__title {
-    margin-right: 110px
-  }
+  // .info__title {
+  //   margin-right: 110px
+  // }
 
   .works__item {
     width: 40%;
   }
+}
+
+@media(max-width: 500px) {
+
 }

@@ -84,7 +84,7 @@
 
 @media(max-width: 1140px){
   .section-team__wrapper {
-    width: 740px;
+    width: auto;
   }
 
   .section-team__list {
@@ -105,10 +105,6 @@
 }
 
 @media(max-width: 900px) {
-  .section-team__wrapper {
-    width: 540px;
-  }
-
   .section-team__list {
     flex-wrap: wrap;
   }
@@ -121,7 +117,7 @@
 }
 
 @media(max-width: 500px) {
-  .section-team__wrapper {
-    width: 400px;
+  .section-team__list {
+    margin-right: 0;
   }
 }

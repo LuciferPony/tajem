@@ -82,7 +82,7 @@
 
 @media(max-width: 1140px){
   .section-advantages__wrapper {
-    width: 740px;
+    width: auto;
   }
 
   .advantages__item {
@@ -91,10 +91,6 @@
 }
 
 @media(max-width: 900px) {
-  .section-advantages__wrapper {
-    width: 540px;
-  }
-
   .section-advantages__list {
     align-items: center;
   }
@@ -128,7 +124,5 @@
 }
 
 @media(max-width: 500px) {
-  .section-advantages__wrapper {
-    width: 400px;
-  }
+
 }

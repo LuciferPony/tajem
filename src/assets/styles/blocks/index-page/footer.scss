@@ -188,7 +188,7 @@
 
 @media(max-width: 1140px) {
   .section-footer__wrapper {
-    width: 740px;
+    width: auto;
   }
 
   .section-footer__items {
@@ -244,9 +244,6 @@
 }
 
 @media(max-width: 900px) {
-  .section-footer__wrapper {
-    width: 540px;
-  }
 
   .contacts__title {
     align-self: flex-start;
@@ -256,5 +253,14 @@
   .section-footer__bottom {
     flex-direction: column;
   }
+
+}
+
+@media(max-width: 500px) {
+
+  .section-footer__items {
+    flex-direction: column;
+  }
+
 
 }

@@ -37,23 +37,16 @@
 
 @media(max-width: 1140px){
   .section-about__wrapper {
-    width: 740px;
+    width: auto;
   }
 }
 
 @media(max-width: 900px) {
-  .section-about__wrapper {
-    width: 540px;
-  }
-
   .about__btn {
     width: 100%;
   }
 }
 
 @media(max-width: 500px) {
-  .section-about__wrapper {
-    width: 400px;
-  }
 
 }
