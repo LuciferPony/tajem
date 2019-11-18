@@ -11,10 +11,16 @@
   margin: auto;
 }
 
+// .section-about__about {
+//   display: flex;
+//   flex-direction: column;
+// }
+
 
 .section-about__title {
-  align-self: center;
   margin: 0;
+  margin: auto;
+  text-align: center;
   color: #413d4b;
 }
 
@@ -29,7 +35,7 @@
   padding: 15px;
 }
 
-.about__img {
+.section-about__img {
   order: -1;
   margin-right: 100px;
   align-items: center;
@@ -42,8 +48,20 @@
 }
 
 @media(max-width: 900px) {
+  .section-about__wrapper {
+    width: 100%;
+  }
+
+  .about__img{
+    padding-left: 10px;
+  }
+
   .about__btn {
     width: 100%;
+  }
+
+  .section-about__img {
+    padding-left: 10px;
   }
 }
 
