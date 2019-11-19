@@ -85,6 +85,8 @@
 @media(max-width: 1140px){
   .section-team__wrapper {
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .section-team__list {
@@ -114,10 +116,22 @@
     border: .5px solid #787390;
     border-radius: 10px;
   }
+
+  .team__img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media(max-width: 500px) {
   .section-team__list {
     margin-right: 0;
+  }
+
+  .team__img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
 }
