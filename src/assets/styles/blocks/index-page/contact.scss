@@ -84,6 +84,8 @@ textarea::placeholder {
 @media(max-width: 1140px){
   .section-contact__wrapper {
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .clients__title {
@@ -104,16 +106,22 @@ textarea::placeholder {
     width: 100%;
   }
 
+  .form__title {
+    text-align: center;
+  }
+
   .form__btn {
     width: 100%;
   }
 
   .section-contact__clients {
+    width: 100%;
     margin-top: 30px;
   }
 
   .clients__title {
     margin-left: 0;
+    text-align: center;
   }
 
   .clients__list {

@@ -100,6 +100,13 @@
 @media(max-width: 1140px){
   .section-testimonials__wrapper {
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .testimonials__item {
+    width: 80%;
+    margin:auto;
   }
 }
 

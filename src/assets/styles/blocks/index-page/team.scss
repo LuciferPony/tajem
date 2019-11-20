@@ -57,8 +57,8 @@
 
 .team__img {
   order: -1;
-  width: 220px;
-  height: 229px;
+  // width: 220px;
+  // height: 229px;
 }
 
 .team__name {
@@ -104,6 +104,11 @@
     justify-content: center;
     border: .1px solid white;
   }
+
+  .team__img {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media(max-width: 900px) {
@@ -131,7 +136,5 @@
 
   .team__img {
     width: 80%;
-    display: flex;
-    justify-content: center;
   }
 }
