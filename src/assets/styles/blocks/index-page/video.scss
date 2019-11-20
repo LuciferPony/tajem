@@ -43,19 +43,19 @@
     width: auto;
   }
 
-  img {
+  .section-video__img img {
     max-width: 80%;
   }
 }
 
 @media(max-width: 900px) {
-  img {
+  .section-video__img img {
     max-width: 70%;
   }
 }
 
 @media(max-width: 500px) {
-  img {
+  .section-video__img img {
     max-width: 60%;
   }
 }

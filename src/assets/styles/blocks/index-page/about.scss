@@ -11,12 +11,6 @@
   margin: auto;
 }
 
-// .section-about__about {
-//   display: flex;
-//   flex-direction: column;
-// }
-
-
 .section-about__title {
   margin: 0;
   margin: auto;
@@ -44,6 +38,10 @@
 @media(max-width: 1140px){
   .section-about__wrapper {
     width: auto;
+  }
+
+  .section-about__img {
+    padding-left: 10px;
   }
 }
 

@@ -92,7 +92,7 @@
 
 @media(max-width: 900px) {
   .section-advantages__list {
-    align-items: center;
+    justify-content: center;
   }
 
   .advantages__item {
@@ -106,8 +106,10 @@
   .advantages__img {
     position: absolute;
     align-self: flex-start;
+    width: 15%;
     padding-top: 50px;
   }
+
 
   .advantages__subtitle {
     order: 0;
@@ -118,9 +120,9 @@
 
   .advantages__text {
     width: 50%;
-    margin-left: 0px;
+    margin-left: 80px;
     text-align: left;
-    align-self: center;
+    align-self: flex-start;
   }
 }
 
