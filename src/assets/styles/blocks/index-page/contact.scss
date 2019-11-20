@@ -136,13 +136,25 @@ textarea::placeholder {
     width: 30%;
     padding: 0;
     margin: 0;
+  }
+
+  .clients__link {
+    display: flex;
     justify-content: center;
-    margin-right: 15px;
+    align-items: center;
+  }
+
+  .clients__svg {
+    align-self: center;
   }
 }
 
 @media(max-width: 500px) {
   .clients__list {
     margin-right: 0;
+  }
+
+  .clients__item {
+    width: 50%;
   }
 }

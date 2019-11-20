@@ -93,6 +93,12 @@
     border: .5px solid white;
   }
 
+  .work__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 @media(max-width: 900px) {
@@ -117,20 +123,18 @@
   }
 
   .works__item {
-    width: 45%;
+    width: 40%;
   }
 
   .works__link {
     width: 100%;
   }
 
-  .work__img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+
 }
 
 @media(max-width: 500px) {
-
+  .works__item {
+    width: 100%;
+  }
 }
