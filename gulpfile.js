@@ -34,7 +34,7 @@ const paths = {
     dest: './dist/assets/css'
   },
   js: {
-    src: './strc/assets/scripts/**/*.js',
+    src: './src/assets/scripts/**/*.js',
     scripts: {
       main: './src/assets/scripts/main.js',
       app: './src/assets/scripts/app.js'

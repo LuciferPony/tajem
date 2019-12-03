@@ -1,5 +1,3 @@
-import $ from 'jquery'
-
-$(document).ready(() => {
-  console.log(window.location)
-})
+window.onload = function() {
+  console.log('test2')
+}
