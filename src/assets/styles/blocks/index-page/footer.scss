@@ -16,6 +16,7 @@
 .section-footer__wrapper {
   width: 940px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .section-footer__items {
@@ -251,7 +252,6 @@
 }
 
 @media(max-width: 900px) {
-
   .contacts__title {
     font-size: 14px;
   }
@@ -262,8 +262,15 @@
 
 }
 
-
 @media(max-width: 558px) {
+  .section-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-footer__wrapper {
+    margin: 0;
+  }
 
   .section-footer__items {
     flex-direction: column;
