@@ -8,9 +8,9 @@ window.onload = function() {
   }
 
   let slider = tns({
-    container: '.my-slider',
-    items: 3,
-    slideBy: 'page',
-    autoplay: true
+    container: '.main__slider',
+    items: 1,
+    controls: false,
+    navContainer: '.main__dotnav'
   })
 }

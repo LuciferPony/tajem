@@ -74,12 +74,15 @@
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 700;
+  text-align: center;
 }
 
 .main__text {
   max-width: 90%;
   text-align: center;
   margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main__text::before {
@@ -95,6 +98,7 @@
 .main__btn {
   margin-top: 50px;
   padding: 15px;
+  justify-self: center;
 }
 
 .main__dotnav {
@@ -102,6 +106,18 @@
   margin: 0;
   margin-top: 127px;
 }
+
+.main__slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.slider__item {
+  list-style: none;
+}
+
 
 .main__item {
   display: inline-block;
