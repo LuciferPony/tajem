@@ -1,16 +1,19 @@
-// .tns-inner {
-//   display: flex;
-//   flex-wrap: wrap;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
+.tns-nav-active {
+  background-color: #00e0d0;
+  border: transparent;
+  border-radius: 50%;
+}
+
+.tns-outer {
+  width: calc(100% - 20px);
+}
 
 .main {
   overflow-x: hidden;
 }
 
 .section-header {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,6 +75,8 @@
 }
 
 .section-header__main {
+  box-sizing: border-box;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,6 +113,9 @@
 }
 
 .main__btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 50px;
   padding: 15px;
   justify-self: center;
@@ -120,6 +128,7 @@
 }
 
 .main__slider {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +138,6 @@
 .slider__item {
   list-style: none;
 }
-
 
 .main__item {
   display: inline-block;
@@ -151,30 +159,26 @@
   font-size: 0;
 }
 
-.dotnav__btn--active {
-  background-color: #00e0d0;
-  border: transparent;
-}
 
 @media(max-width: 1140px) {
   .section-header__navbar {
-    width: auto;
+    width: calc(100% - 20px);
   }
 
   .section-header__main {
-    width: auto;
+    width: calc(100% - 20px);
+    overflow: hidden;
+    box-sizing: border-box;
   }
 }
 
 @media(max-width: 900px) {
   .section-header {
-    width: 100%;
     padding-bottom: 30px;
   }
 
   .section-header__navbar {
     flex-wrap: wrap;
-    width: 100%;
     margin: 0;
     padding: 0 10px;
     box-sizing: border-box;
@@ -182,7 +186,6 @@
 
   .section-header__logo {
     width: 50%;
-    // padding-left: 10px;
     padding-top: 20px;
   }
 
@@ -216,6 +219,20 @@
     bottom: 25px;
   }
 
+  .section-header__burger-text--active {
+    opacity: 0;
+  }
+
+  .section-header__burger--active::before {
+    top: 45px;
+    transform: rotate(-329deg);
+  }
+
+  .section-header__burger--active::after {
+    bottom: 26px;
+    transform: rotate(-393deg);
+  }
+
   .nav__list {
     flex-direction: column;
     width: 100%;
@@ -226,6 +243,10 @@
 
   .nav__list--active {
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
   }
 
   .nav__item {
@@ -236,6 +257,16 @@
     margin-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .main__title {
+    margin: auto;
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+
+  .main__text {
+    max-width: 300px;
   }
 
   .main__dotnav {
