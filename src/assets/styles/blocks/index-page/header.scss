@@ -202,13 +202,14 @@
   }
 
   .section-header__burger::before,
-  .section-header__burger-text,
+  .section-header__burger span,
   .section-header__burger::after {
     position: absolute;
     height: 1px;
     width: 40px;
     background-color: white;
     right: 0;
+    transition: all .5s;
   }
 
   .section-header__burger::before {
@@ -219,16 +220,16 @@
     bottom: 25px;
   }
 
-  .section-header__burger-text--active {
+  .section-header__burger.active span {
     opacity: 0;
   }
 
-  .section-header__burger--active::before {
+  .section-header__burger.active::before {
     top: 45px;
     transform: rotate(-329deg);
   }
 
-  .section-header__burger--active::after {
+  .section-header__burger.active::after {
     bottom: 26px;
     transform: rotate(-393deg);
   }

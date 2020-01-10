@@ -25,7 +25,11 @@
   padding: 0;
 }
 
-.section-testimonials__list::before {
+.testimonials__item {
+  padding-top: 20px;
+}
+
+.testimonials__item::before {
   content: '“';
   display: block;
   color: #ffffff;
@@ -95,6 +99,11 @@
 
 .userpic__item {
   margin-right: 14px;
+}
+
+.userpic__item.tns-nav-active{
+  border: none;
+  background-color: transparent;
 }
 
 @media(max-width: 1140px){
