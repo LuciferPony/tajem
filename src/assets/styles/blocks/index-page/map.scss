@@ -1,0 +1,53 @@
+.section-map {
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  top: 10vh;
+  left: 10vw;
+  background-color: white;
+}
+
+.section-map__close {
+  right: 10px;
+  top: 30px;
+  width: 40px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  font-size: 0;
+}
+.section-map__text {
+  transform: rotate(-329deg);
+}
+
+.section-map__close::after {
+  content: '';
+  display: block;
+  bottom: 20px;
+  transform: rotate(-393deg);
+}
+
+.section-map__text,
+.section-map__close::after {
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  background-color: #3a3542;
+  right: 10px;
+  top: 10px;
+  transition: all .5s;
+  font-size: 0;
+  border-radius: 3px;
+}
+
+.section-map__map {
+  height: 100%;
+  width: 100%;
+}
+
+.modal__active {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
